@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Data</title>
+</head>
+<body>
+    <h1>Please fill data in the form below:</h1>
+    <form method="POST" action="/cldb">
+        <label>Name:<input type="text" name="name" required></label>
+        <br>
+        <label>Email:<input type="text" name="email" required></label>
+        <br>
+        <label>Comment:<br><textarea name="comment"></textarea></label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="/cldb">View feedbacks</a>
+</body>
+</html>
